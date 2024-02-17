@@ -18,11 +18,11 @@ fc_temp=$(curl -s wttr.in/$city?T | head -23 | tail -1 | grep '°.' | cut -d 'C'
 echo "The forecasted temperature for noon tomorrow for $city : $fc_temp C"
 
 
-#Assign Country and City to variable TZ
+#Assigning Country and City to variable TZ
 TZ='Morocco/Casablanca'
 
 
-# Store the current hour, day, month, and year in corresponding shell variables
+# Storing the current hour, day, month, and year in corresponding shell variables
 hour=$(TZ='Morocco/Casablanca' date -u +%H) 
 day=$(TZ='Morocco/Casablanca' date -u +%d) 
 month=$(TZ='Morocco/Casablanca' date +%m)

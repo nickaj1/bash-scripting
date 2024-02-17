@@ -1,0 +1,3 @@
+echo -e "year\tmonth\tday\tobs_temp\tfc_temp\taccuracy\taccuracy_range" > historical_fc_accuracy.tsv2024	02	17	14(13)	°C		poor
+2024	02	17	14(13)	°C		poor
+2024	02	17	14(13)	°C		poor
